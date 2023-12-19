@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand mb-0 h1" href="#">DASHBOARD</a>
+          <!--Toogle btn-->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--SidebaR-->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!--Sidebar header-->
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- Sidebar Boddy-->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Logs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">hourly</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">daily</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">monthly</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Konfigurasi
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">customer</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">admin</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >LOG OUT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <i class="fab fa-AMR"></i>
+            <h3>AMR</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
+              repudiandae, explicabo voluptate et hic cum ratione a. Officia
+              delectus illum perferendis maiores quia molestias vitae fugiat
+              aspernatur alias corporis?
+            </p>
+            <a href="/AMR/amr.html" type="button">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <i class="fab fa-OFFTAKE"></i>
+            <h3>OFFTAKE</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
+              repudiandae, explicabo voluptate et hic cum ratione a. Officia
+              delectus illum perferendis maiores quia molestias vitae fugiat
+              aspernatur alias corporis?
+            </p>
+            <a href="#" type="button">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <i class="fab fa-SHIPPER"></i>
+            <h3>SHIPPER</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab
+              repudiandae, explicabo voluptate et hic cum ratione a. Officia
+              delectus illum perferendis maiores quia molestias vitae fugiat
+              aspernatur alias corporis?
+            </p>
+            <a href="#" type="button">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

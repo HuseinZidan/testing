@@ -1,0 +1,20 @@
+https://www.figma.com/file/OAfLMIQr97V1ZHqFnSnJsC/Untitled?type=design&node-id=0-1&mode=design&t=nZ2fyXJrgq00bkrE-0
+
+running php tanpa buka xampp dengan cmd/terminal
+
+problem golive
+
+js -> jquery -> ajax -> axios(api react)
+
+1. navbar dropdown //logs: hourly, daily, monthly //konfigurasi: client/customer dan admin
+
+2. balik ke home dihapus
+
+3. animasi
+
+4. amr adalah customer
+
+5. offtake adalah gudang
+
+6. shipper adalah 
+

@@ -1,13 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('/img/bg.jpg') center/cover no-repeat;
   background-size: cover;
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
   color: #fff;
   height: 100vh;
+}
+
+img{
+  background-size: cover;
 }
 
 .dropdown-item:hover {
